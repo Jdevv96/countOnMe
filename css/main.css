@@ -1,9 +1,34 @@
-/*
- * Thanks to https://jsfiddle.net/ayoisaiah/c8b9zsaq/10/ for the calculator styles
- */
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+}
+
+body {
+  background-image: url('../images/pic04.jpg');
+  
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.page-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10em;
+}
+
+h1, h2 {
+  color: rgb(255, 255, 255);
+}
+
+#title {
+  font-size: 50px;
+}
+
+#caption {
+  margin-top: 2rem;
+  font-size: 2em;
 }
 
 *,
@@ -22,6 +47,7 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 400px;
+  background-color: #eaeaea;
 }
 
 .calculator-screen {
@@ -40,7 +66,7 @@ button {
   height: 60px;
   background-color: #fff;
   border-radius: 3px;
-  border: 1px solid #c4c4c4;
+  border: 1px solid #414040;
   background-color: transparent;
   font-size: 2rem;
   color: #333;
@@ -71,7 +97,7 @@ button:hover {
 
 .equal-sign {
   background-color: #2e86c0;
-  border-color: #337cac;
+  border-color: #414040;
   color: #fff;
   height: 100%;
   grid-area: 2 / 4 / 6 / 5;
