@@ -24,5 +24,7 @@ The calculator will display the result of your operation in the display screen.
 Clearing the display
 To clear the display, click on the AC button. This will clear the display and reset the calculator.
 
+![Demo usage of app.](calc-usage.gif)
+
 ### Features To Come
 * Keyboard functionality has not been added to this version of the app, but it may be added in a future release.
