@@ -1,29 +1,40 @@
 html {
-  font-size: 62.5%;
   box-sizing: border-box;
 }
 
 body {
-  background-image: url('../images/pic04.jpg');
-  
+  background-image: url("../images/math-operator.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  font-family: "Carter One", cursive;
 }
-
-.page-title {
+.page-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin-top: 10em;
+  height: 100vh;
 }
 
-h1, h2 {
-  color: rgb(255, 255, 255);
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 80px;
 }
 
-#title {
-  font-size: 50px;
+h3 {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
 }
 
 #caption {
@@ -40,21 +51,21 @@ h1, h2 {
 }
 
 .calculator {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  border: 1px solid #000000;
+  border-radius: 20px;
+  margin: 5em 0;
+
+  /* 
+  transform: translate(-50%, -50%); */
   width: 400px;
-  background-color: #eaeaea;
+  background-color: #9b9999;
 }
 
 .calculator-screen {
   width: 100%;
   font-size: 5rem;
   height: 80px;
-  border: none;
+  border-radius: inherit;
   background-color: #252525;
   color: #fff;
   text-align: right;
@@ -65,19 +76,27 @@ h1, h2 {
 button {
   height: 60px;
   background-color: #fff;
-  border-radius: 3px;
+  border-radius: 30px;
   border: 1px solid #414040;
-  background-color: transparent;
   font-size: 2rem;
   color: #333;
-  background-image: linear-gradient(to bottom, transparent, transparent 50%, rgba(0, 0, 0, .04));
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .05), inset 0 1px 0 0 rgba(255, 255, 255, .45), inset 0 -1px 0 0 rgba(255, 255, 255, .15), 0 1px 0 0 rgba(255, 255, 255, .15);
-  text-shadow: 0 1px rgba(255, 255, 255, .4);
+  background-image: linear-gradient(
+    to bottom,
+    transparent,
+    transparent 50%,
+    rgba(0, 0, 0, 0.04)
+  );
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.45),
+    inset 0 -1px 0 0 rgba(255, 255, 255, 0.15),
+    0 1px 0 0 rgba(255, 255, 255, 0.15);
+  text-shadow: 0 1px rgba(255, 255, 255, 0.4);
   outline: none;
 }
 
 button:hover {
-  background-color: #eaeaea;
+  background-color: #db1a1a;
+  color: white;
   cursor: pointer;
 }
 
