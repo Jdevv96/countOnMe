@@ -1,6 +1,6 @@
 # Welcome to countOnMe!
 ## A quick and easy to use calculator 
-This is a simple arithmetic calculator app built using HTML, CSS, and JavaScript. The app can be used to perform basic arithmetic operations like addition, subtraction, multiplication, and division.
+This is a simple arithmetic calculator app built using HTML, CSS, and JavaScript. The app can be used to perform basic math operations like addition, subtraction, multiplication, and division.
 
 ### Usage
 To use the calculator, simply click on the numbers or operators you want to use. The calculator will display the results of your operations in real-time.
@@ -27,4 +27,4 @@ To clear the display, click on the AC button. This will clear the display and re
 ![Demo usage of app.](calc-usage.gif)
 
 ### Features To Come
-* Keyboard functionality has not been added to this version of the app, but it may be added in a future release.
+* Keyboard functionality has not been added to this version of the app, but it may be added in the future.
